@@ -68,62 +68,7 @@ Or
 pip install -r requirements.txt
 ```
 
----
 
-# Project Structure
-
-```
-NeuralFace/
-
-│
-├── app.py
-├── requirements.txt
-│
-├── templates/
-│      └── index.html
-│
-├── static/
-│      ├── css
-│      ├── js
-│      └── images
-│
-├── models/
-│
-└── README.md
-```
-
----
-
-# Workflow
-
-```
-             User
-               │
-               ▼
-     Webcam / Upload Image
-               │
-               ▼
-      Face Detection (OpenCV)
-               │
-               ▼
-      DeepFace Emotion Analysis
-               │
-               ▼
-     Emotion Probability Scores
-               │
-               ▼
-     Dominant Emotion Detection
-               │
-               ▼
- Interactive Dashboard Update
-               │
-      ┌────────┼─────────┐
-      ▼        ▼         ▼
- Radar Chart  History  Confidence
-               │
-               ▼
-       Display Result
-```
 
 ---
 
